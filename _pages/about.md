@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
-
 Hello and welcome! I am a **Master’s student in Stochastics and Data Science** at the **University of Turin**, with a strong background in probability, statistics, and machine learning. My academic path has been driven by a deep interest in mathematical modeling and its applications to data science.
 
 I hold a **Bachelor’s degree in Mathematics for Finance and Insurance** from the **University of Turin**, where I developed a solid foundation in probability theory, stochastic processes, and financial mathematics.
