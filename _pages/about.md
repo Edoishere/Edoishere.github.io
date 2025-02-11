@@ -89,15 +89,7 @@ As part of my master’s program in **Stochastics and Data Science**, I complete
 > “Integrating XAI for Predictive Conflict Analytics”  
 > *Published in [xAI-2024 Late-breaking Work, Demos, and Doctoral Consortium Joint Proceedings](https://ceur-ws.org/Vol-3793/)*  
 
-This internship was a valuable opportunity to **apply theoretical knowledge to real-world scenarios** and further develop my skills in research, machine learning, and data-driven decision-making.
-
-
-## Contact
-
-📧 Email: [edoardocarroccetto@gmail.com]  
-🔗 [LinkedIn](https://linkedin.com/in/edoardocarroccetto)  
-📂 [GitHub](https://github.com/your-username)  
-📑 [Google Scholar](https://scholar.google.com/citations?user=your-scholar-id)  
+This internship was a valuable opportunity to **apply theoretical knowledge to real-world scenarios** and further develop my skills in research, machine learning, and data-driven decision-making. 
 
 --- 
 
