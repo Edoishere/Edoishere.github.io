@@ -14,7 +14,7 @@ author_profile: true
 
 ### 🌐 Online Profiles  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/edoardo-carroccetto-815353204/) 
-- 🖥️ [GitHub](https://github.com/Edoishere) *(Insert your GitHub username)  
+- 🖥️ [GitHub](https://github.com/Edoishere) 
 - 📑 [Google Scholar](https://scholar.google.com/citations?user=UO1wSrgAAAAJ&hl=it)   
 
 ---
