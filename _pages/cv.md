@@ -43,21 +43,13 @@ redirect_from:
 
 ## **Research & Projects**
 ### **Master’s Thesis: Assumption-Lean Nonparametric Estimator for Quantile Treatment Effect**  
-📌 *Supervisors*: [Prof. Stijn Vansteelandt](link) (University of Ghent) & [Prof. Matteo Giordano](link) (University of Turin)  
+📌 *Supervisors*: ([Prof. Stijn Vansteelandt](https://users.ugent.be/~svsteela/)) (University of Ghent) & ([Prof. Matteo Giordano](https://matteogiordano.weebly.com/)) (University of Turin)  
 📄 *Abstract*: My research focuses on developing a nonparametric approach for estimating the **Quantile Treatment Effect (QTE)** under **right-censored data** constraints. This work aims to reduce reliance on strong model assumptions while ensuring robustness in causal inference. The methodology has applications in survival analysis, economics, and epidemiology.  
 
 🛠️ *Key Topics*:  
 ✔️ Causal Inference  
 ✔️ Nonparametric Estimation  
 ✔️ Right-Censored Data & Survival Analysis  
-
-### **Strabarriere (2021 - 2023)**  
-A multidisciplinary initiative raising awareness about discrimination in Turin through events and exhibitions.  
-🔗 [Strabarriere](https://www.strabarriere.it/)  
-
-### **Machine Learning Journal Club (2023 - 2024)**  
-A collaborative community sharing insights on machine learning and artificial intelligence research.  
-🔗 [ML Journal Club](https://www.mljc.it/)  
 
 ## **Skills**
 ### Programming & Data Science  
@@ -82,6 +74,14 @@ A collaborative community sharing insights on machine learning and artificial in
 - Organized cultural and recreational events to engage youth in the local community.  
 
 ### **AGESCI Mathi (2017 - 2021)**  
-- Volunteered as a scout in the **Association of Italian Catholic Guides and Scouts (AGESCI)**, focusing on personal development, outdoor activities, and community service.  
+- Volunteered as a scout in the **Association of Italian Catholic Guides and Scouts (AGESCI)**, focusing on personal development, outdoor activities, and community service.
+
+### **Strabarriere (2021 - 2023)**  
+A multidisciplinary initiative raising awareness about discrimination in Turin through events and exhibitions.  
+🔗 [Strabarriere](https://www.strabarriere.it/)  
+
+### **Machine Learning Journal Club (2023 - 2024)**  
+A collaborative community sharing insights on machine learning and artificial intelligence research.  
+🔗 [ML Journal Club](https://www.mljc.it/)  
 
 
