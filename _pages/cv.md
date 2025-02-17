@@ -68,13 +68,13 @@ redirect_from:
 
 ## **Volunteering & Community Involvement**
 ### **A.V.I.S. Turin (2018 - Current)**  
-- Active **blood donor** and **volunteer** in the Italian association for voluntary blood donation.  
+Active **blood donor** and **volunteer** in the Italian association for voluntary blood donation.  
 
 ### **Movimento Giovanile Cafasse (2013 - 2023)**  
-- Organized cultural and recreational events to engage youth in the local community.  
+Organized cultural and recreational events to engage youth in the local community.  
 
 ### **AGESCI Mathi (2017 - 2021)**  
-- Volunteered as a scout in the **Association of Italian Catholic Guides and Scouts (AGESCI)**, focusing on personal development, outdoor activities, and community service.
+Volunteered as a scout in the **Association of Italian Catholic Guides and Scouts (AGESCI)**, focusing on personal development, outdoor activities, and community service.
 
 ### **Strabarriere (2021 - 2023)**  
 A multidisciplinary initiative raising awareness about discrimination in Turin through events and exhibitions.  
