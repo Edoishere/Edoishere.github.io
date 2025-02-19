@@ -13,7 +13,7 @@ Hello and welcome! I am a **Master’s student in Stochastics and Data Science**
 
 I hold a **Bachelor’s degree in Mathematics for Finance and Insurance** from the **University of Turin**, where I developed a solid foundation in **probability theory, stochastic processes, and financial mathematics**.
 
-Currently, I am working on my **Master’s thesis** under the supervision of **Prof. Stijn Vansteelandt** (University of Ghent) and **Prof. Matteo Giordano** (University of Turin). My research focuses on developing an **assumption-lean nonparametric estimator for the Quantile Treatment Effect** in the presence of **right-censored data**. This work aims to improve **statistical estimation techniques** while minimizing model assumptions, making it particularly useful in **real-world applications** such as medical and economic studies.
+I am currently conducting research for my Master’s thesis under the supervision of Prof. Stijn Vansteelandt (University of Ghent) and Prof. Matteo Giordano (University of Turin). My work focuses on developing a nonparametric estimator for the Quantile Treatment Effect in the presence of right-censored data, aiming to enhance statistical inference while reducing reliance on strong model assumptions. This methodology has broad applications, particularly in survival analysis, economics, and epidemiology, where robust and assumption-lean estimation techniques are crucial.
 
 ---
 
@@ -27,7 +27,7 @@ I am passionate about combining **rigorous statistical theory** with **modern da
 ---
 
 ## **Beyond Academia: Personal Interests**
-♟️ **Chess** – Passionate chess player. If you want to play [Chess.com](https://www.chess.com/member/edocarroc).  
+♟️ **Chess** – Passionate chess player. Up for a game? Find me on [Chess.com](https://www.chess.com/member/edocarroc).  
 🏃‍♂️ **Running & Training** – Regularly running and training.  
 🌍 **Travel & Culture** – I love exploring new places, experiencing different cultures, and meeting people from diverse backgrounds. In **2019**, I did the **Santiago’s Walk** in **Portugal and Spain**, and in **2021**, **La Via degli Dei** from **Bologna to Florence** in Italy.       
 
