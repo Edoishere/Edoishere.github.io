@@ -58,7 +58,7 @@ redirect_from:
 ### Mathematical & Statistical Knowledge  
 - Probability & Stochastic Processes  
 - Machine Learning & Statistical Learning  
-- Causal inference $ Causal Machine Learning 
+- Causal inference & Causal Machine Learning 
 
 ### Languages  
 - **Italian** (Native)  
