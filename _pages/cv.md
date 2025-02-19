@@ -12,19 +12,17 @@ redirect_from:
 ## **Education**
 - 🎓 **Master’s in Stochastics and Data Science** *(2022 - Expected 2025)*  
   *University of Turin*  
-  - Relevant coursework: Advanced Probability, Machine Learning, Nonparametric Statistics, Causal Inference  
+  - Relevant coursework: Advanced Probability, Statistical Inference, Functional Analysis  
 
 - 🔬 **Exchange Program in Statistics** *(February 2024 - July 2024)*  
   *University of Ghent*  
+  - Relevant coursework: Causal Machine Learning, Deep Learning
 
 - 🎓 **Bachelor’s in Mathematics for Finance and Insurance** *(2019 - 2022)*  
   *University of Turin*  
 
 - 🎓 **High School Diploma (Computer Science Path)** *(2013 - 2019)*  
   *I.I.S. "Giuseppe Peano", Turin*  
-
-- 🏆 **CCAIM AI and Machine Learning Summer School** *(September 2023)*  
-  *University of Cambridge*  
 
 ## **Experience**
 ### **Research Internship – Machine Learning & Explainable AI**  
@@ -42,7 +40,7 @@ redirect_from:
 > *Published in [xAI-2024 Late-breaking Work, Demos, and Doctoral Consortium Joint Proceedings](https://ceur-ws.org/Vol-3793/)*  
 
 ## **Research & Projects**
-### **Master’s Thesis: Assumption-Lean Nonparametric Estimator for Quantile Treatment Effect**  
+### **Master’s Thesis: Efficient Estimation of Survival Curves and Quantile Treatment Effects under Right-Censored Data: a Causal Machine Learning Approach.**  
 📌 *Supervisors*: ([Prof. Stijn Vansteelandt](https://users.ugent.be/~svsteela/)) (University of Ghent) & ([Prof. Matteo Giordano](https://matteogiordano.weebly.com/)) (University of Turin)  
 📄 *Abstract*: My research focuses on developing a nonparametric approach for estimating the **Quantile Treatment Effect (QTE)** under **right-censored data** constraints. This work aims to reduce reliance on strong model assumptions while ensuring robustness in causal inference. The methodology has applications in survival analysis, economics, and epidemiology.  
 
@@ -60,7 +58,7 @@ redirect_from:
 ### Mathematical & Statistical Knowledge  
 - Probability & Stochastic Processes  
 - Machine Learning & Statistical Learning  
-- Statistics  
+- Causal inference $ Causal Machine Learning 
 
 ### Languages  
 - **Italian** (Native)  
