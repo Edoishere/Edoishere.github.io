@@ -51,7 +51,7 @@ redirect_from:
 
 ## **Skills**
 ### Programming & Data Science  
-- **Languages**: Python ([Comparative temporal analysis of Covid-19 in Python](https://Edoishere.github.io/files/Comparative Temporal Analysis of COVID-19 Data in Italy and France.pdf)), R  
+- **Languages**: Python ([Comparative temporal analysis of Covid-19 in Python](https://Edoishere.github.io/files/Project.pdf)), R  
 - **Libraries**: NumPy, Pandas, Scikit-learn, TensorFlow  
 - **Statistical Tools**: Nonparametric Estimation, Causal Inference, Survival Analysis  
 
