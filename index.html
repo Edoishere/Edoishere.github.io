@@ -165,17 +165,21 @@
         </ul>
     </div>
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/edoardocarroccetto@gmail.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
+    <div id="contact-form">
+        <form action="https://formsubmit.co/edoardocarroccetto@gmail.com" method="POST">
+            <!-- Hidden inputs to configure behavior -->
+            <input type="hidden" name="_subject" value="New message from your portfolio site!">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://edoishere.github.io/#contact">
+            
+            <!-- Visible form fields -->
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </div>
+
 
     <footer>
         <div class="container">
