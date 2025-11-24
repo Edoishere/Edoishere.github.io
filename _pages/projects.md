@@ -14,7 +14,7 @@ author_profile: true
   --card-color-1: #e8f5e9; /* Sage */
   --card-color-2: #e9edc9; /* Sand */
   --card-color-3: #d0efd3; /* Soft Mint */
-  --card-color-4: #b9cbb8; /* Moss */
+  --card-color-4: #b9cbb8; /* Moss */ 
   --card-color-5: #a3b18a; /* Olive */
   --card-color-6: #cfe8cc; /* Fern Light */
   --card-color-7: #d9ead3; /* Pale Green */
