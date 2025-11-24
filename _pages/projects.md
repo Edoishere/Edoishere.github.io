@@ -55,5 +55,30 @@ author_profile: true
 # Projects
 
 A selection of the projects I’ve worked on, combining machine learning,
-statistical mod
+statistical modelling and explainability.
+
+<div class="projects-grid">
+
+{% assign bgcolors = "var(--color-1)|var(--color-2)|var(--color-3)|var(--color-4)|var(--color-5)|var(--color-6)|var(--color-7)" | split: "|" %}
+
+{% assign color_index = 0 %}
+
+{% for project in site.projects %}
+
+  {% assign current_color = bgcolors[color_index] %}
+
+  <a class="project-card" href="{{ project.url | relative_url }}" style="--dynamic-color: {{ current_color }};">
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.excerpt }}</p>
+  </a>
+
+  {% assign color_index = color_index | plus: 1 %}
+  {% if color_index == bgcolors.size %}
+    {% assign color_index = 0 %}
+  {% endif %}
+
+{% endfor %}
+
+</div>
+
 
