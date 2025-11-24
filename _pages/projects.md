@@ -61,8 +61,6 @@ author_profile: true
 }
 </style>
 
-# Projects
-
 A selection of the projects I’ve worked on, combining machine learning, statistical modelling, and explainability.
 
 <div class="projects-container">
