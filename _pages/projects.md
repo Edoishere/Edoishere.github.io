@@ -81,7 +81,6 @@ author_profile: true
 }
 </style>
 
-# Projects
 
 A selection of projects combining machine learning, statistical modelling, and explainability.
 
