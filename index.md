@@ -4,18 +4,33 @@ title: "Edoardo Carroccetto"
 author_profile: true
 ---
 
-# Hi, I'm Edoardo 👋
+# 👋 Hi, I'm Edoardo Carroccetto
 
-I'm a **Data Scientist at Italdesign**, with an MSc in *Stochastics & Data Science*.  
-My work spans machine learning, survival analysis, explainability and causal inference.
+I'm a **Data Scientist at Italdesign** with an MSc in *Stochastics & Data Science*.  
+My expertise spans **machine learning, survival analysis, explainability**, and **causal inference**.
 
-I’m especially interested in:
+---
 
-- Computational psychiatry & cognitive modelling  
-- Reinforcement learning  
-- Causal machine learning  
-- Survival analysis & quantile effects  
-- Simulation-based inference  
-- Explainable AI and uncertainty quantification  
+## 🔭 I’m currently exploring
 
-Check out my **[Projects](/projects/)** or read more **[About me](/about/)**.
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+- 💡 **Computational Psychiatry & Cognitive Modelling**
+- 🤖 **Reinforcement Learning**
+- 🔍 **Causal Machine Learning**
+- ⏱️ **Survival Analysis & Quantile Effects**
+- 🎲 **Simulation-Based Inference**
+- 🧩 **Explainable AI & Uncertainty Quantification**
+
+</div>
+
+---
+
+## 📂 Check out my work
+
+- 🚀 [Projects](/projects/) – Dive into my hands-on ML & data science projects  
+- 📖 [About Me](/about/) – Learn more about my journey & interests  
+
+---
+
+✨ Always curious, always learning.
