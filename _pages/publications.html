@@ -1,36 +1,83 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+{% raw %}
+<style>
+:root {
+  --violet: #7e57c2;
+  --orange: #fb8c00;
+  --green: #43a047;
+  --mustard: #f1c40f;
+
+  --violet-soft: #f3e5f5;
+  --orange-soft: #fff3e0;
+  --green-soft: #e8f5e9;
+  --mustard-soft: #fff9e6;
+}
+
+/* Griglia delle pubblicazioni */
+.publications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* Card */
+.pub-card {
+  padding: 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  border-left: 6px solid var(--dynamic-color);
+  background: var(--dynamic-bg);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.pub-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.pub-card h3 {
+  margin: 0;
+  color: var(--dynamic-color);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.pub-card p {
+  margin-top: 10px;
+  color: #333;
+}
+</style>
+{% endraw %}
+
+A selection of my academic publications and research contributions.
+
+<div class="publications-grid">
+
+{% assign colors = "violet|orange|green|mustard" | split: "|" %}
+{% assign backgrounds = "violet-soft|orange-soft|green-soft|mustard-soft" | split: "|" %}
+{% assign index = 0 %}
+
+<!-- Publication 1 -->
+{% assign color = colors[index] %}
+{% assign bg = backgrounds[index] %}
+<a class="pub-card" href="#" style="--dynamic-color: var(--{{ color }}); --dynamic-bg: var(--{{ bg }});">
+  <h3>Integrating XAI for Predictive Conflict Analytics</h3>
+  <p><strong>Macis, L.; Tagliapietra, M.; Castelnovo, A.; Regoli, D.; Greco, G.; Cosentini, A.; Pisano, P.; <u>Carroccetto, E.</u></strong><br>
+  <em>xAI 2024 – Late-Breaking Work and Demos</em></p>
+</a>
+
+</div>
+
 
 
 
