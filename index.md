@@ -4,7 +4,16 @@ title: "Edoardo Carroccetto"
 author_profile: true
 ---
 
+{% raw %}
 <style>
+:root {
+  --green-dark: #1b5e20;
+  --green-main: #2e7d32;
+  --green-light: #e8f5e9;
+  --green-soft: #f1f8e9;
+  --green-accent: #a5d6a7;
+}
+
 /* Container principale */
 .profile-container {
   text-align: center;
@@ -12,12 +21,18 @@ author_profile: true
   font-family: 'Helvetica', sans-serif;
 }
 
-/* Titolo principale con effetto gradient */
+/* Titolo principale */
 .profile-container h1 {
   font-size: 3rem;
-  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  background: linear-gradient(90deg, var(--green-dark), var(--green-main));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* Sottotitolo */
+.profile-container p {
+  font-size: 1.2rem;
+  color: #444;
 }
 
 /* Sezioni */
@@ -25,51 +40,71 @@ author_profile: true
   margin-top: 40px;
 }
 
+/* Titoli sezione */
+.section h2 {
+  color: var(--green-main);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
 /* Lista delle skill come badge */
 .skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 12px;
   margin-top: 20px;
 }
 
 .skill-badge {
-  background: linear-gradient(135deg, #ff758c, #ff7eb3);
-  color: white;
+  background: var(--green-light);
+  color: var(--green-dark);
   padding: 10px 20px;
-  border-radius: 30px;
+  border-radius: 25px;
   font-weight: bold;
+  border: 2px solid var(--green-accent);
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: default;
 }
 
 .skill-badge:hover {
-  transform: scale(1.1);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 }
 
 /* Link animati */
-a.project-link {
+a.section-link {
   display: inline-block;
   margin: 10px;
-  font-weight: bold;
-  color: #2575fc;
+  padding: 12px 22px;
+  border-radius: 10px;
+  background: var(--green-light);
+  border-left: 5px solid var(--green-main);
+  color: var(--green-dark);
+  font-weight: 600;
   text-decoration: none;
-  transition: transform 0.3s, color 0.3s;
+  transition: transform 0.25s, box-shadow 0.25s;
 }
 
-a.project-link:hover {
-  transform: translateY(-3px);
-  color: #6a11cb;
+a.section-link:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* Footer spacing */
+.footer-space {
+  height: 40px;
 }
 </style>
+{% endraw %}
 
 <div class="profile-container">
 
 <h1>👋 Hi, I'm Edoardo Carroccetto</h1>
 
-<p>Data Scientist at <strong>Italdesign</strong> | MSc in <em>Stochastics & Data Science</em></p>
+<p>
+  Data Scientist at <strong>Italdesign</strong> · MSc in <em>Stochastics & Data Science</em>  
+</p>
 
 <div class="section">
   <h2>💡 My Interests</h2>
@@ -87,8 +122,14 @@ a.project-link:hover {
 
 <div class="section">
   <h2>📂 Explore My Work</h2>
-  <a class="project-link" href="/projects/">🚀 Projects</a>
-  <a class="project-link" href="/about/">📖 About Me</a>
+  <a class="section-link" href="/projects/">🚀 Projects</a>
+  <a class="section-link" href="/publications/">📄 Publications</a>
+  <a class="section-link" href="/cv/">📘 CV</a>
 </div>
+
+<div class="footer-space"></div>
+
+</div>
+
 
 </div>
