@@ -10,58 +10,51 @@ author_profile: true
 {% raw %}
 <style>
 :root {
-  /* Palette principale */
   --violet: #7e57c2;
   --orange: #fb8c00;
   --green: #43a047;
   --mustard: #f1c40f;
 
-  /* Sfondo soft */
   --violet-soft: #f3e5f5;
   --orange-soft: #fff3e0;
   --green-soft: #e8f5e9;
   --mustard-soft: #fff9e6;
 }
 
-/* Griglia responsive */
+/* Griglia delle pubblicazioni */
 .publications-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-  gap: 28px;
+  gap: 25px;
   margin-top: 30px;
 }
 
-/* Card cliccabile */
+/* Card */
 .pub-card {
-  padding: 22px;
+  padding: 20px;
   border-radius: 12px;
-  display: block;
-  background: var(--dynamic-bg);
-  border-left: 6px solid var(--dynamic-color);
-  text-decoration: none; /* rimuove underline */
+  text-decoration: none;
   color: inherit;
-  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  border-left: 6px solid var(--dynamic-color);
+  background: var(--dynamic-bg);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .pub-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 
-/* Titolo */
 .pub-card h3 {
-  margin: 0 0 10px;
-  font-weight: 700;
-  font-size: 1.25rem;
+  margin: 0;
   color: var(--dynamic-color);
-  text-decoration: none; /* rimuove underline */
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
-/* Paragrafo */
 .pub-card p {
-  margin: 0;
+  margin-top: 10px;
   color: #333;
-  text-decoration: none; /* rimuove underline */
 }
 </style>
 {% endraw %}
@@ -76,31 +69,13 @@ A selection of my academic publications and research contributions.
 {% assign backgrounds = "violet-soft|orange-soft|green-soft|mustard-soft" | split: "|" %}
 {% assign index = 0 %}
 
-<!-- Inserisci qui tutte le pubblicazioni -->
-{% for pub in site.publications %}
-
-  {% assign current_color = colors[index] %}
-  {% assign current_bg = backgrounds[index] %}
-
-  <a class="pub-card"
-     href="{{ pub.url | relative_url }}"
-     style="--dynamic-color: var(--{{ current_color }}); --dynamic-bg: var(--{{ current_bg }});">
-      <h3>{{ pub.title }}</h3>
-      <p>
-        {% if pub.authors %}<strong>{{ pub.authors }}</strong><br>{% endif %}
-        {% if pub.venue %}<em>{{ pub.venue }}</em>{% endif %}
-      </p>
-  </a>
-
-  {% assign index = index | plus: 1 %}
-  {% if index == colors.size %}
-    {% assign index = 0 %}
-  {% endif %}
-
-{% endfor %}
+<!-- Publication 1 -->
+{% assign color = colors[index] %}
+{% assign bg = backgrounds[index] %}
+<a class="pub-card" href="#" style="--dynamic-color: var(--{{ color }}); --dynamic-bg: var(--{{ bg }});">
+  <h3>Integrating XAI for Predictive Conflict Analytics</h3>
+  <p><strong>Macis, L.; Tagliapietra, M.; Castelnovo, A.; Regoli, D.; Greco, G.; Cosentini, A.; Pisano, P.; <u>Carroccetto, E.</u></strong><br>
+  <em>xAI 2024 – Late-Breaking Work and Demos</em></p>
+</a>
 
 </div>
-
-
-
-
