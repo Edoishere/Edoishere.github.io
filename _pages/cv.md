@@ -9,56 +9,64 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<style>
+/* Timeline base */
+.timeline {
+  position: relative;
+  margin: 20px 0 40px 0;
+  padding-left: 40px;
+}
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #3498db;
+}
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+.event {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+.event::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: 4px solid #3498db;
+  border-radius: 50%;
+}
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+.event h4 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #3498db;
+}
+
+.event span {
+  font-size: 0.9em;
+  color: #666;
+}
+</style>
+
+## Education
+<div class="timeline">
+  <div class="event">
+    <h4>Ph.D in Version Control Theory</h4>
+    <span>GitHub University — 2018 (expected)</span>
+  </div>
+  <div class="event">
+    <h4>M.S. in Jekyll</h4>
+    <span>GitHub University — 2014</span>
+  </div>
+  <div class="event">
+    <h4>B.S. in GitHub</h4>
+    <span>GitHub University — 2012<
