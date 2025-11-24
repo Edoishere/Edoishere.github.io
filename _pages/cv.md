@@ -57,25 +57,6 @@ redirect_from:
 }
 </style>
 
-## Education
-<div class="timeline">
-  <div class="event">
-    <h4>MSc Stochastics and Data Science</h4>
-    <span>University of Turin — 2022–2025 (Grade: 109/110)</span>
-    <p>Thesis: Efficient estimation of survival curves and quantile treatment effects under right-censoring. Supervisors: Matteo Giordano, Stijn Vansteelandt.</p>
-  </div>
-  <div class="event">
-    <h4>Exchange Semester (Erasmus+)</h4>
-    <span>Ghent University — 2024</span>
-    <p>Coursework: Causal ML, Deep Learning, NLP.</p>
-  </div>
-  <div class="event">
-    <h4>BSc Mathematics for Finance and Insurance</h4>
-    <span>University of Turin — 2019–2022 (Grade: 106/110)</span>
-    <p>Thesis: One-dimensional and two-dimensional random walk with extension to Skew walk and non-Markovian walks. Supervisor: Cristina Zucca.</p>
-  </div>
-</div>
-
 ## Professional and Research Experience
 <div class="timeline">
   <div class="event">
@@ -87,6 +68,27 @@ redirect_from:
     <h4>Research Intern</h4>
     <span>Department of Computer Science, University of Turin — 2023</span>
     <p>Developed a ML model to predict geopolitical risks with interactive visualization; applied XAI techniques to improve neural network interpretability.</p>
+  </div>
+</div>
+
+## Education
+<div class="timeline">
+  <div class="event">
+    <h4>MSc Stochastics and Data Science</h4>
+    <span>University of Turin — 2022–2025 (Grade: 109/110)</span>
+    <p>Thesis: Efficient estimation of survival curves and quantile treatment effects under right-censoring. 
+      Supervisors: Matteo Giordano, Stijn Vansteelandt.</p>
+  </div>
+  <div class="event">
+    <h4>Exchange Semester (Erasmus+)</h4>
+    <span>Ghent University — 2024</span>
+    <p>Coursework: Causal ML, Deep Learning, NLP.</p>
+  </div>
+  <div class="event">
+    <h4>BSc Mathematics for Finance and Insurance</h4>
+    <span>University of Turin — 2019–2022 (Grade: 106/110)</span>
+    <p>Thesis: One-dimensional and two-dimensional random walk with extension to Skew walk and non-Markovian walks. 
+      Supervisor: Cristina Zucca.</p>
   </div>
 </div>
 
