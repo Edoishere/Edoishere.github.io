@@ -5,18 +5,18 @@ title                    : "Edoardo Carroccetto"
 title_separator          : "-"
 name                     : &name "Edoardo Carroccetto"
 description              : &description "Data Scientist — Portfolio & Projects"
-url                      : https://edoishere.github.io   # <-- aggiornato
+url                      : https://edoishere.github.io
 baseurl                  : ""
 repository               : "Edoishere/Edoishere.github.io"
 
 # Site Author
 author:
-  avatar           : "profile.png"
+  avatar           : "EdoardoCarroccetto.jpg"
   name             : "Edoardo Carroccetto"
   bio              : "Data Scientist at Italdesign. MSc in Stochastics & Data Science. Interested in causal ML, survival analysis and explainability."
   location         : "Turin"
   employer         : "Italdesign"
-  email            : "edoardocarroccetto@gmail.com" 
+  email            : "edoardocarroccetto@gmail.com"
   github           : "Edoishere"
   googlescholar    : "https://scholar.google.com/citations?user=UO1wSrgAAAAJ&hl=it"
   orcid            : "https://orcid.org/0009-0005-3620-531X"
@@ -125,6 +125,16 @@ collections:
 
   # Talks disabled
   # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
+
+  # Guides disabled
+  # guides:
+  #   output: true
+  #   permalink: /:collection/:path/
+
+  # Blogposts disabled
+  # posts:
   #   output: true
   #   permalink: /:collection/:path/
 
