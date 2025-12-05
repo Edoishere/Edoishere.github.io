@@ -62,7 +62,15 @@ redirect_from:
   <div class="event">
     <h4>Data Scientist</h4>
     <span>Italdesign Giugiaro — 2025–Present</span>
-    <p>Managing unsupervised clustering for portfolio analysis and a revenue-forecasting system using LSTM networks and XGBoost.</p>
+    <p>At Italdesign, I co-managed three advanced data-science projects with two colleagues:
+
+1. **Revenue forecasting system** – integrated statistical time-series models (ARIMA, SARIMA) with machine-learning methods (XGBoost, LSTM).  
+2. **Unsupervised learning pipeline** – leveraged HDBSCAN and representation learning to cluster high-dimensional project data.  
+3. **Internal chatbot development** – designed the reinforcement-learning mechanism governing reward updates and policy optimization.  
+
+These projects strengthened my expertise in time-series modeling, unsupervised learning, reinforcement learning, large-scale data analysis, and SQL-based data handling.
+
+</p>
   </div>
   <div class="event">
     <h4>Research Intern</h4>
