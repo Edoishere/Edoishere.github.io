@@ -69,8 +69,6 @@ author_profile: true
 </style>
 {% endraw %}
 
-# Projects
-
 Here is a selection of my main projects, highlighting my work in data science, machine learning, and computational biology.
 
 <ul class="project-list">
