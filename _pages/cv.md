@@ -62,15 +62,11 @@ redirect_from:
   <div class="event">
     <h4>Data Scientist</h4>
     <span>Italdesign Giugiaro — 2025–Present</span>
-    <p>At Italdesign, I co-managed three advanced data-science projects with two colleagues:
-
-1. **Revenue forecasting system** – integrated statistical time-series models (ARIMA, SARIMA) with machine-learning methods (XGBoost, LSTM).  
-2. **Unsupervised learning pipeline** – leveraged HDBSCAN and representation learning to cluster high-dimensional project data.  
-3. **Internal chatbot development** – designed the reinforcement-learning mechanism governing reward updates and policy optimization.  
-
-These projects strengthened my expertise in time-series modeling, unsupervised learning, reinforcement learning, large-scale data analysis, and SQL-based data handling.
-
-</p>
+    <p>\textbf{Quantitative modelling and machine learning for high-dimensional and time-series data.} \\
+    - Developed forecasting models using ARIMA/SARIMA, XGBoost and LSTM for revenue time-series prediction. \\
+    - Led unsupervised learning projects using HDBSCAN and dimensionality-reduction techniques to identify structure in complex project data. \\
+    - Co-designed an internal chatbot enhanced with a reinforcement-learning mechanism to optimise responses, managing state transitions and reward-based updates. \\
+    - Implemented complex SQL queries for large-scale data extraction and integration.</p>
   </div>
   <div class="event">
     <h4>Research Intern</h4>
@@ -84,8 +80,10 @@ These projects strengthened my expertise in time-series modeling, unsupervised l
   <div class="event">
     <h4>MSc Stochastics and Data Science</h4>
     <span>University of Turin — 2022–2025 (Grade: 109/110)</span>
-    <p>Thesis: Efficient estimation of survival curves and quantile treatment effects under right-censoring. 
-      Supervisors: Matteo Giordano, Stijn Vansteelandt.</p>
+    <p>\textbf{Thesis:} Efficient estimation of time-to-event models and quantile treatment effects under right-censoring.\\
+    Developed and validated asymptotic properties of an extension of a causal inference method for right-censored data, providing a robust framework for estimating treatment effects in survival settings.\\
+    \textbf{Supervisors:} Matteo Giordano, Stijn Vansteelandt.\\
+    \textbf{Coursework:} Probability Theory, Statistical Inference, Stochastic Processes, Multivariate Statistical Analysis, Functional Analysis.</p>
   </div>
   <div class="event">
     <h4>Exchange Semester (Erasmus+)</h4>
@@ -95,8 +93,9 @@ These projects strengthened my expertise in time-series modeling, unsupervised l
   <div class="event">
     <h4>BSc Mathematics for Finance and Insurance</h4>
     <span>University of Turin — 2019–2022 (Grade: 106/110)</span>
-    <p>Thesis: One-dimensional and two-dimensional random walk with extension to Skew walk and non-Markovian walks. 
-      Supervisor: Cristina Zucca.</p>
+    <p>\textbf{Thesis}: One-dimensional and two-dimensional random walk with extension to Skew walk and non-Markovian walks.\\ 
+   \textbf{Supervisor:} Cristina Zucca.\\
+   \textbf{Coursework:} Probability and Statistics, Numerical Analysis, Mathematics for Finance and Insurance, Linear Algebra, Analytical Methods.</p>
   </div>
 </div>
 
