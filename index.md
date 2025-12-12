@@ -6,130 +6,95 @@ author_profile: true
 
 {% raw %}
 <style>
-:root {
-  --green-dark: #1b5e20;
-  --green-main: #2e7d32;
-  --green-light: #e8f5e9;
-  --green-soft: #f1f8e9;
-  --green-accent: #a5d6a7;
-}
-
-/* Container principale */
 .profile-container {
-  text-align: center;
-  padding: 30px;
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Helvetica", sans-serif;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
-/* Titolo principale */
 .profile-container h1 {
-  font-size: 3rem;
-  background: linear-gradient(90deg, var(--green-dark), var(--green-main));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* Sottotitolo */
-.profile-container p {
-  font-size: 1.2rem;
-  color: #444;
-}
-
-/* Sezioni */
-.section {
-  margin-top: 40px;
-}
-
-/* Titoli sezione */
-.section h2 {
-  color: var(--green-main);
+  font-size: 2.2rem;
   font-weight: 700;
-  margin-bottom: 15px;
+  color: #222;
+  text-align: left;
 }
 
-/* Lista delle skill come badge */
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 20px;
+.profile-container p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
 }
 
-.skill-badge {
-  background: var(--green-light);
-  color: var(--green-dark);
-  padding: 10px 20px;
-  border-radius: 25px;
-  font-weight: bold;
-  border: 2px solid var(--green-accent);
-  transition: transform 0.3s, box-shadow 0.3s;
-  cursor: default;
+.section {
+  margin-top: 35px;
 }
 
-.skill-badge:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
-}
-
-/* Link animati */
-a.section-link {
-  display: inline-block;
-  margin: 10px;
-  padding: 12px 22px;
-  border-radius: 10px;
-  background: var(--green-light);
-  border-left: 5px solid var(--green-main);
-  color: var(--green-dark);
+.section h2 {
+  font-size: 1.35rem;
+  color: #2e7d32;
+  margin-bottom: 10px;
   font-weight: 600;
+}
+
+.skill-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.skill-list li {
+  padding: 3px 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.links a {
+  display: inline-block;
+  margin-right: 18px;
+  margin-top: 8px;
   text-decoration: none;
-  transition: transform 0.25s, box-shadow 0.25s;
+  font-weight: 500;
+  color: #2e7d32;
 }
 
-a.section-link:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-}
-
-/* Footer spacing */
-.footer-space {
-  height: 40px;
+.links a:hover {
+  text-decoration: underline;
 }
 </style>
 {% endraw %}
 
 <div class="profile-container">
 
-<h1>👋 Hi, I'm Edoardo Carroccetto</h1>
+<h1>Edoardo Carroccetto</h1>
 
 <p>
-  Data Scientist at <strong>Italdesign</strong> · MSc in <em>Stochastics & Data Science</em>  
+  Data Scientist at <strong>Italdesign</strong><br>
+  MSc in <em>Stochastics & Data Science</em>
 </p>
 
 <div class="section">
-  <h2>💡 My Interests</h2>
-  <div class="skills">
-    <div class="skill-badge">Computational Psychiatry</div>
-    <div class="skill-badge">Cognitive Modelling</div>
-    <div class="skill-badge">Reinforcement Learning</div>
-    <div class="skill-badge">Causal Machine Learning</div>
-    <div class="skill-badge">Survival Analysis</div>
-    <div class="skill-badge">Simulation-Based Inference</div>
-    <div class="skill-badge">Explainable AI</div>
-    <div class="skill-badge">Uncertainty Quantification</div>
-  </div>
+  <h2>Research Interests</h2>
+  <ul class="skill-list">
+    <li>Computational Psychiatry</li>
+    <li>Cognitive Modelling</li>
+    <li>Reinforcement Learning</li>
+    <li>Causal Machine Learning</li>
+    <li>Survival Analysis</li>
+    <li>Simulation-Based Inference</li>
+    <li>Explainable AI</li>
+    <li>Uncertainty Quantification</li>
+  </ul>
 </div>
 
 <div class="section">
-  <h2>📂 Explore My Work</h2>
-  <a class="section-link" href="/projects/">🚀 Projects</a>
-  <a class="section-link" href="/publications/">📄 Publications</a>
-  <a class="section-link" href="/cv/">📘 CV</a>
+  <h2>More</h2>
+  <div class="links">
+    <a href="/projects/">Projects</a>
+    <a href="/publications/">Publications</a>
+    <a href="/cv/">CV</a>
+  </div>
 </div>
 
-<div class="footer-space"></div>
-
 </div>
 
-
-</div>
