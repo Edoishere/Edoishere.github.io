@@ -5,8 +5,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-# Projects
-
 This page collects a selection of projects I worked on during my studies and professional experience.  
 Each project includes a brief description and a link to the corresponding GitHub repository.
 
