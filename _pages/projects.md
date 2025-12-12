@@ -5,95 +5,56 @@ permalink: /projects/
 author_profile: true
 ---
 
-{% include base_path %}
+# Projects
 
-{% raw %}
-<style>
-:root {
-  /* Palette principale */
-  --violet: #7e57c2;
-  --orange: #fb8c00;
-  --green: #43a047;
-  --mustard: #f1c40f;
+This page collects a selection of projects I worked on during my studies and professional experience.  
+Each project includes a brief description and a link to the corresponding GitHub repository.
 
-  /* Sfondo soft */
-  --violet-soft: #f3e5f5;
-  --orange-soft: #fff3e0;
-  --green-soft: #e8f5e9;
-  --mustard-soft: #fff9e6;
-}
+---
 
-/* Griglia responsive */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 28px;
-  margin-top: 30px;
-}
+## 🔹 Survival Modelling & Treatment Effects Under Censoring
+A study on efficient estimation of survival curves and quantile treatment effects in the presence of right-censoring.  
+Methods include IPCW, pseudo-observations, and flexible ML models.
 
-/* Card cliccabile */
-.project-card {
-  padding: 22px;
-  border-radius: 12px;
-  display: block;
-  background: var(--dynamic-bg);
-  border-left: 6px solid var(--dynamic-color);
-  text-decoration: none; /* rimuove underline */
-  color: inherit;
-  transition: transform 0.22s ease, box-shadow 0.22s ease;
-}
+**Repo:** [github.com/Edoishere/survival-censoring-ml](#)
 
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
+---
 
-/* Titolo */
-.project-card h3 {
-  margin: 0 0 10px;
-  font-weight: 700;
-  font-size: 1.25rem;
-  color: var(--dynamic-color);
-  text-decoration: none; /* rimuove underline */
-}
+## 🔹 Revenue Forecasting with Hybrid Models (Italdesign)
+End-to-end forecasting pipeline combining sequence models (LSTM) with tree-based predictors (XGBoost), deployed and monitored in production.  
+Includes feature engineering, model comparison, and automated evaluation.
 
-/* Paragrafo */
-.project-card p {
-  margin: 0;
-  color: #333;
-  text-decoration: none; /* rimuove underline */
-}
-</style>
-{% endraw %}
+**Repo:** *(private / placeholder)*
 
-A selection of the projects I’ve worked on, combining machine learning,
-statistical modelling and explainability.
+---
 
-<div class="projects-grid">
+## 🔹 Geopolitical Risk Prediction
+Predictive modelling of geopolitical instability using tabular, textual, and geospatial features.  
+Final output includes a probabilistic risk map and explainable attributions using gradient-based methods.
 
-{% assign colors = "violet|orange|green|mustard" | split: "|" %}
-{% assign backgrounds = "violet-soft|orange-soft|green-soft|mustard-soft" | split: "|" %}
-{% assign index = 0 %}
+**Repo:** [github.com/Edoishere/geopolitical-risk](#)
 
-{% for project in site.projects %}
+---
 
-  {% assign current_color = colors[index] %}
-  {% assign current_bg = backgrounds[index] %}
+## 🔹 Reinforcement Learning for Behavioural Modelling
+Small RL environment used to explore human-like decision-making patterns and parameter recovery.  
+Implements Q-learning, softmax policies, and hierarchical model fitting.
 
-  <a class="project-card"
-     href="{{ project.url | relative_url }}"
-     style="--dynamic-color: var(--{{ current_color }}); --dynamic-bg: var(--{{ current_bg }});">
-      <h3>{{ project.title }}</h3>
-      <p>{{ project.excerpt }}</p>
-  </a>
+**Repo:** [github.com/Edoishere/rl-behavioural-modelling](#)
 
-  {% assign index = index | plus: 1 %}
-  {% if index == colors.size %}
-    {% assign index = 0 %}
-  {% endif %}
+---
 
-{% endfor %}
+## 🔹 Stochastic Processes Simulations
+Simulation and visualisation of Markov chains, random walks, and non-Markovian extensions in 1D/2D.  
+Originally developed during my BSc thesis.
 
-</div>
+**Repo:** [github.com/Edoishere/stochastic-simulations](#)
+
+---
+
+# Want to explore more?
+Additional repositories are available on my GitHub profile:
+
+👉 **https://github.com/Edoishere**
 
 
