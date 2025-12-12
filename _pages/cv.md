@@ -55,6 +55,12 @@ redirect_from:
   font-size: 0.9em;
   color: #555;
 }
+
+.event p {
+  margin: 5px 0 0 0;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
 </style>
 
 ## Professional and Research Experience
@@ -62,11 +68,13 @@ redirect_from:
   <div class="event">
     <h4>Data Scientist</h4>
     <span>Italdesign Giugiaro — 2025–Present</span>
-    <p>\textbf{Quantitative modelling and machine learning for high-dimensional and time-series data.} \\
-    - Developed forecasting models using ARIMA/SARIMA, XGBoost and LSTM for revenue time-series prediction. \\
-    - Led unsupervised learning projects using HDBSCAN and dimensionality-reduction techniques to identify structure in complex project data. \\
-    - Co-designed an internal chatbot enhanced with a reinforcement-learning mechanism to optimise responses, managing state transitions and reward-based updates. \\
-    - Implemented complex SQL queries for large-scale data extraction and integration.</p>
+    <p><strong>Quantitative modelling and machine learning for high-dimensional and time-series data.</strong></p>
+    <ul>
+      <li>Developed forecasting models using ARIMA/SARIMA, XGBoost and LSTM for revenue time-series prediction.</li>
+      <li>Led unsupervised learning projects using HDBSCAN and dimensionality-reduction techniques to identify structure in complex project data.</li>
+      <li>Co-designed an internal chatbot enhanced with a reinforcement-learning mechanism to optimise responses, managing state transitions and reward-based updates.</li>
+      <li>Implemented complex SQL queries for large-scale data extraction and integration.</li>
+    </ul>
   </div>
   <div class="event">
     <h4>Research Intern</h4>
@@ -80,10 +88,9 @@ redirect_from:
   <div class="event">
     <h4>MSc Stochastics and Data Science</h4>
     <span>University of Turin — 2022–2025 (Grade: 109/110)</span>
-    <p>\textbf{Thesis:} Efficient estimation of time-to-event models and quantile treatment effects under right-censoring.\\
-    Developed and validated asymptotic properties of an extension of a causal inference method for right-censored data, providing a robust framework for estimating treatment effects in survival settings.\\
-    \textbf{Supervisors:} Matteo Giordano, Stijn Vansteelandt.\\
-    \textbf{Coursework:} Probability Theory, Statistical Inference, Stochastic Processes, Multivariate Statistical Analysis, Functional Analysis.</p>
+    <p><strong>Thesis:</strong> Efficient estimation of time-to-event models and quantile treatment effects under right-censoring. Developed and validated asymptotic properties of an extension of a causal inference method for right-censored data, providing a robust framework for estimating treatment effects in survival settings.</p>
+    <p><strong>Supervisors:</strong> Matteo Giordano, Stijn Vansteelandt.</p>
+    <p><strong>Coursework:</strong> Probability Theory, Statistical Inference, Stochastic Processes, Multivariate Statistical Analysis, Functional Analysis.</p>
   </div>
   <div class="event">
     <h4>Exchange Semester (Erasmus+)</h4>
@@ -93,9 +100,9 @@ redirect_from:
   <div class="event">
     <h4>BSc Mathematics for Finance and Insurance</h4>
     <span>University of Turin — 2019–2022 (Grade: 106/110)</span>
-    <p>\textbf{Thesis}: One-dimensional and two-dimensional random walk with extension to Skew walk and non-Markovian walks.\\ 
-   \textbf{Supervisor:} Cristina Zucca.\\
-   \textbf{Coursework:} Probability and Statistics, Numerical Analysis, Mathematics for Finance and Insurance, Linear Algebra, Analytical Methods.</p>
+    <p><strong>Thesis:</strong> One-dimensional and two-dimensional random walk with extension to Skew walk and non-Markovian walks.</p>
+    <p><strong>Supervisor:</strong> Cristina Zucca.</p>
+    <p><strong>Coursework:</strong> Probability and Statistics, Numerical Analysis, Mathematics for Finance and Insurance, Linear Algebra, Analytical Methods.</p>
   </div>
 </div>
 
@@ -104,30 +111,5 @@ redirect_from:
   <div class="event">
     <h4>Integrating XAI for Predictive Conflict Analytics</h4>
     <span>xAI 2024 Late-Breaking Work and Demos</span>
-    <p>Macis, L.; Tagliapietra, M.; Castelnovo, A.; Regoli, D.; Greco, G.; Cosentini, A.; Pisano, P.; <strong>Carroccetto, E.</strong></p>
-  </div>
-</div>
+    <p>Macis, L.; Tagliapietra, M.; Castelnovo, A.; Regoli, D.; Greco, G.; Cosentini, A.; Pisano, P.; <strong>Carroccetto, E.</stro
 
-## Seminars and Summer Schools
-<div class="timeline">
-  <div class="event">
-    <h4>AI and Machine Learning in Healthcare Summer School</h4>
-    <span>Cambridge Centre for AI in Medicine — 2023</span>
-  </div>
-  <div class="event">
-    <h4>ChemAI: How AI is Changing Chemical Discovery</h4>
-    <span>Amsterdam Chemistry Network — 2023</span>
-  </div>
-</div>
-
-## Outreach and Service
-<div class="timeline">
-  <div class="event">
-    <h4>Treasurer and volunteer</h4>
-    <span>AVIS (Italian National Blood Donor Association) — 2018–Present</span>
-  </div>
-  <div class="event">
-    <h4>Board Member</h4>
-    <span>Movimento Giovanile Cafasse — 2014–Present</span>
-  </div>
-</div>
