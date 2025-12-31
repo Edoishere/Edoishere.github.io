@@ -9,14 +9,46 @@ author_profile: true
 
 {% raw %}
 <style>
-/* Academic-style publications list */
+/* Academic timeline for publications */
 
-.publications-list {
+.publications-timeline {
+  position: relative;
   margin-top: 2rem;
+  padding-left: 2.2rem;
+}
+
+.publications-timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.6rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #ddd;
 }
 
 .publication {
-  margin-bottom: 1.6rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.publication::before {
+  content: "";
+  position: absolute;
+  left: -1.05rem;
+  top: 0.3rem;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border: 2px solid #666;
+  border-radius: 50%;
+}
+
+.publication-year {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 0.2rem;
 }
 
 .publication-title {
@@ -44,13 +76,13 @@ author_profile: true
 </style>
 {% endraw %}
 
-## Publications
-
 A selection of my academic publications and research contributions.
 
-<div class="publications-list">
+<div class="publications-timeline">
 
   <div class="publication">
+    <div class="publication-year">2024</div>
+
     <div class="publication-title">
       <a href="#">
         Integrating XAI for Predictive Conflict Analytics
