@@ -9,73 +9,62 @@ author_profile: true
 
 {% raw %}
 <style>
-:root {
-  --violet: #7e57c2;
-  --orange: #fb8c00;
-  --green: #43a047;
-  --mustard: #f1c40f;
+/* Academic-style publications list */
 
-  --violet-soft: #f3e5f5;
-  --orange-soft: #fff3e0;
-  --green-soft: #e8f5e9;
-  --mustard-soft: #fff9e6;
+.publications-list {
+  margin-top: 2rem;
 }
 
-/* Griglia delle pubblicazioni */
-.publications-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-  gap: 25px;
-  margin-top: 30px;
+.publication {
+  margin-bottom: 1.6rem;
 }
 
-/* Card */
-.pub-card {
-  padding: 20px;
-  border-radius: 12px;
+.publication-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.publication-authors {
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+}
+
+.publication-venue {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.publication a {
   text-decoration: none;
-  color: inherit;
-  border-left: 6px solid var(--dynamic-color);
-  background: var(--dynamic-bg);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.pub-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
-}
-
-.pub-card h3 {
-  margin: 0;
-  color: var(--dynamic-color);
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-.pub-card p {
-  margin-top: 10px;
-  color: #333;
+.publication a:hover {
+  text-decoration: underline;
 }
 </style>
 {% endraw %}
 
-# Publications
+## Publications
 
 A selection of my academic publications and research contributions.
 
-<div class="publications-grid">
+<div class="publications-list">
 
-{% assign colors = "violet|orange|green|mustard" | split: "|" %}
-{% assign backgrounds = "violet-soft|orange-soft|green-soft|mustard-soft" | split: "|" %}
-{% assign index = 0 %}
+  <div class="publication">
+    <div class="publication-title">
+      <a href="#">
+        Integrating XAI for Predictive Conflict Analytics
+      </a>
+    </div>
 
-<!-- Publication 1 -->
-{% assign color = colors[index] %}
-{% assign bg = backgrounds[index] %}
-<a class="pub-card" href="#" style="--dynamic-color: var(--{{ color }}); --dynamic-bg: var(--{{ bg }});">
-  <h3>Integrating XAI for Predictive Conflict Analytics</h3>
-  <p><strong>Macis, L.; Tagliapietra, M.; Castelnovo, A.; Regoli, D.; Greco, G.; Cosentini, A.; Pisano, P.; <u>Carroccetto, E.</u></strong><br>
-  <em>xAI 2024 – Late-Breaking Work and Demos</em></p>
-</a>
+    <div class="publication-authors">
+      Macis, L.; Tagliapietra, M.; Castelnovo, A.; Regoli, D.; Greco, G.;
+      Cosentini, A.; Pisano, P.; <strong>Carroccetto, E.</strong>
+    </div>
+
+    <div class="publication-venue">
+      <em>xAI 2024 – Late-Breaking Work and Demos</em>
+    </div>
+  </div>
 
 </div>
