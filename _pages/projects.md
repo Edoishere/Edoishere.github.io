@@ -5,11 +5,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-Here is a selection of **academic and applied projects** reflecting my interests in **machine learning**, **data science**, and **computational biology**.  
-The focus is on **methodological contributions**, **causal modeling**, and **scientific impact**.
-
----
-
 ## M.Sc. Thesis – Causal Machine Learning for Survival and Quantile Treatment Effects
 
 **Keywords:** Causal Inference, Survival Analysis, Right-Censoring, Efficient Influence Functions, Machine Learning  
