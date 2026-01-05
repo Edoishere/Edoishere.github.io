@@ -5,40 +5,29 @@ permalink: /projects/
 author_profile: true
 ---
 
-Here is a selection of research and applied projects reflecting my interests in **machine learning**, **data science**, and **computational biology**.  
-The focus is on methodological contributions and scientific impact.
+Here is a selection of **academic and applied projects** reflecting my interests in **machine learning**, **data science**, and **computational biology**.  
+The focus is on **methodological contributions**, **causal modeling**, and **scientific impact**.
 
 ---
 
-## Protein Structure Modelling via Topological Data Analysis
+## M.Sc. Thesis – Causal Machine Learning for Survival and Quantile Treatment Effects
 
-**Keywords:** Topological Data Analysis, Persistent Homology, Protein Structure, Python  
+**Keywords:** Causal Inference, Survival Analysis, Right-Censoring, Efficient Influence Functions, Machine Learning  
 
-This project investigates the use of Topological Data Analysis (TDA) to characterize protein structures and interactions.  
-By applying persistent homology to protein conformations, the work aims to identify structural patterns that are difficult to capture with traditional geometric or statistical approaches, with implications for protein function and stability prediction.
+Master’s thesis developed within the M.Sc. in *Stochastics and Data Science* at the University of Torino.  
+The work proposes efficient, data-adaptive estimators for treatment-specific survival curves and quantile treatment effects under right-censored data, combining causal inference theory with modern machine learning methods.
 
-**Main contributions:**
-- Extraction of topological descriptors from protein structures using persistent homology  
-- Visualization and interpretation of protein topological features  
-- Predictive modelling of protein interaction and stability-related properties  
-
-**Code:** [github.com/Edoishere/protein-tda](https://github.com/Edoishere/protein-tda)
-
----
-
-## Reinforcement Learning Model of Parkinson-Related Neuronal Function
-
-**Keywords:** Reinforcement Learning, Computational Neuroscience, Dopamine Modulation, Python  
-
-Developed a computational reinforcement learning model to study dopamine-dependent decision-making processes relevant to Parkinson’s disease.  
-The model simulates neuronal dynamics and reward-based learning mechanisms to explore how dopamine depletion affects action selection and learning efficiency.
+**Supervisors:**  
+- **Matteo Giordano** (Supervisor)  
+- **Stijn Vansteelandt** (Co-supervisor)
 
 **Main contributions:**
-- Neuron-level reinforcement learning simulations  
-- Modelling of reward prediction and dopamine modulation  
-- Analysis of network dynamics under pathological conditions  
+- Identification of causal survival and quantile treatment effects under dependent censoring  
+- Cross-fitted one-step estimators based on efficient influence functions  
+- Data-adaptive nuisance estimation via Super Learner ensembles  
+- Theoretical guarantees (consistency, asymptotic linearity, inference)  
 
-**Code:** [github.com/Edoishere/rl-parkinson-neurons](https://github.com/Edoishere/rl-parkinson-neurons)
+**Thesis:** *Efficient Estimation of Survival Curves and Quantile Treatment Effects under Right-Censored Data: a Causal Machine Learning Approach*
 
 ---
 
@@ -73,6 +62,23 @@ The objective was to identify meaningful segments within historical data to supp
 **Code:** Private repository
 
 ---
+
+## Data Analysis on COVID-19
+
+**Keywords:** Data Analysis, Epidemiology, Time Series, Python, Pandas  
+
+Conducted an exploratory and statistical analysis of COVID-19 epidemiological data to study temporal trends and regional patterns during the pandemic.  
+The project focuses on data cleaning, visualization, and quantitative analysis of publicly available datasets.
+
+**Main contributions:**
+- Data preprocessing and integration of heterogeneous COVID-19 datasets  
+- Time series analysis of cases, deaths, and testing dynamics  
+- Visual analytics to highlight temporal and geographic trends  
+
+**Code:** [github.com/Edoishere/DataAnalysisOnCovid19](https://github.com/Edoishere/DataAnalysisOnCovid19)
+
+---
+
 
 ## Additional Projects
 
