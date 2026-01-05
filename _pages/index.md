@@ -15,4 +15,4 @@ I obtained my MSc in **Stochastics & Data Science** from the University of Turin
 Beyond research, I strongly believe that scientific work is enriched by curiosity, community engagement, and activities outside academia 🌍.  
 I am an active volunteer with **AVIS**, the Italian National Blood Donor Association, where I currently serve as treasurer, and together with a group of friends I co-founded a local **study room** aimed at creating an open and accessible space for students ❤️📚.
 
-In my free time, I enjoy **running** 🏃‍♂️ (you can find me on [Strava]([https://www.strava.com/](https://strava.app.link/TBUA9wbjGZb))), **playing chess** ♟️ (on [Chess.com]([https://www.chess.com/](https://www.chess.com/member/edocarroc))), and travelling.
+In my free time, I enjoy **running** 🏃‍♂️ (you can find me on [Strava](https://strava.app.link/TBUA9wbjGZb))), **playing chess** ♟️ (on [Chess.com](https://www.chess.com/member/edocarroc))), and travelling.
