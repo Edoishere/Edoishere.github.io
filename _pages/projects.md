@@ -13,8 +13,8 @@ Master’s thesis developed within the M.Sc. in *Stochastics and Data Science* a
 The work proposes efficient, data-adaptive estimators for treatment-specific survival curves and quantile treatment effects under right-censored data, combining causal inference theory with modern machine learning methods.
 
 **Supervisors:**  
-- **Matteo Giordano** (Supervisor)  
-- **Stijn Vansteelandt** (Co-supervisor)
+- **[Matteo Giordano](https://scholar.google.com/citations?user=82UF5H0AAAAJ&hl=it)** (Supervisor)  
+- **[Stijn Vansteelandt](https://scholar.google.com/citations?user=734J_XAAAAAJ&hl=en)** (Co-supervisor)
 
 **Main contributions:**
 - Identification of causal survival and quantile treatment effects under dependent censoring  
