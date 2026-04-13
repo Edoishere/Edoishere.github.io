@@ -1,0 +1,74 @@
+title: "Edoardo Carroccetto"
+description: "Data Scientist — Portfolio & Projects"
+url: "https://edoishere.github.io"
+baseurl: ""
+repository: "Edoishere/Edoishere.github.io"
+encoding: "utf-8"
+
+author:
+  name: "Edoardo Carroccetto"
+  email: "edoardocarroccetto@gmail.com"
+  bio: "Data Scientist @Italdesign | Ex UGent | Made in UniTo"
+  location: "Turin"
+  avatar: "/images/Edo.jpg"
+  github: "Edoishere"
+  googlescholar: "https://scholar.google.com/citations?user=UO1wSrgAAAAJ&hl=it"
+  orcid: "https://orcid.org/0009-0005-3620-531X"
+  strava: "https://strava.app.link/TBUA9wbjGZb"
+  chess: "https://www.chess.com/member/edocarroc"
+
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "CV"
+    url: "/cv/"
+  - title: "Travels"
+    url: "/travels/"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  publications:
+    output: true
+    permalink: /publications/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
